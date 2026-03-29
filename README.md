@@ -4,6 +4,10 @@ This is a full-stack Task Management application strictly developed using modern
 The frontend is built inside `frontend` using **Flutter** and **flutter_bloc** state management. 
 The backend is placed in `backend` providing a lightning-fast REST API through **FastAPI** connected to a local **SQLite** database.
 
+App video demo: [click here to watch app demo](https://drive.google.com/file/d/1CO9yeqfbe9QHM6iHBF8D9h4rTdiC3RoA/view)
+
+Apk file: [click here to download](https://drive.google.com/drive/folders/1Q1hEGRPI2jZ-nBY9c6M72UF01ylYY4tL)
+
 ## 🛠️ Step 1. Clone & Setup Repository
 
 ```bash
@@ -60,13 +64,19 @@ flutter pub get
 3. Open the `.env` configuration file located at `frontend/.env`. Update `API_BASE_URL` by replacing it exactly with your computer's `ipconfig` output from earlier:
 > Example `frontend/.env`:
 > ```env
-> API_BASE_URL=http://192.168.1.5:8000
+> API_BASE_URL=http://191.161.1.5:8000
 > ```
 
 4. Run the application onto your attached debug device or simulator:
 ```cmd
 flutter run
 ```
+
+## Screenshot
+<p>
+    <img src="screenshot/MyTasks.jpg" hspace="10" >
+    <img src="screenshot/NewTask.jpg" hspace="10" >
+</p>
 
 ---
 
